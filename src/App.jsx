@@ -1,9 +1,10 @@
-//import Header from "@/components/Header";
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Build from "./components/Build";
-import HowBuild from "./components/HowBuild";
-import Technologies from "./components/Technologies";
+import Build from "@/components/Build";
+import HowBuild from "@/components/HowBuild";
+import Technologies from "@/components/Technologies";
+import Contact from "@/components/Contact";
 
 const Layout = ({ children }) => {
   return (
@@ -19,12 +20,15 @@ function App() {
   //
   return (
     <main className="bg-[#302c42] min-h-[100vh]">
+      <Header />
+
       <Layout>
         <Hero />
         <About />
         <Build />
         <Technologies />
         <HowBuild />
+        <Contact />
       </Layout>
     </main>
   );

@@ -6,7 +6,10 @@ function Build() {
   const { head, cards } = data.section3;
 
   return (
-    <section className="flex flex-col gap-[36px] md:gap-[70px] mt-[90px] lg:mt-[120px]">
+    <section
+      id={"services"}
+      className="flex flex-col gap-[36px] md:gap-[70px] mt-[90px] lg:mt-[120px]"
+    >
       <SectionTitle headContent={head} />
 
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  gap-4 text-white">

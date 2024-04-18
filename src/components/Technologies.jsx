@@ -4,7 +4,10 @@ function Technologies() {
   const { brands, mainImage, title } = data.section4;
 
   return (
-    <section className="flex flex-col gap-[36px] md:gap-[70px] mt-[90px] lg:mt-[120px]">
+    <section
+      id={"technologies"}
+      className="flex flex-col gap-[36px] md:gap-[70px] mt-[90px] lg:mt-[120px]"
+    >
       <div
         className={`relative flex flex-col justify-center items-center h-[170px] md:h-[300px] w-full  rounded-full overflow-hidden`}
       >

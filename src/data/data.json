@@ -98,5 +98,10 @@
         "title": "Hydra VR Deploy"
       }
     ]
+  },
+  "section6": {
+    "title": ["JOIN HYDRA", "Let’s Build Your VR Experience"],
+    "email": "email@email.com",
+    "textButton": "SEND TO HYDRA"
   }
 }

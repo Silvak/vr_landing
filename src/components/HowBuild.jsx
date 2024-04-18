@@ -1,6 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
 import data from "@/data/data";
-
 import {
   Carousel,
   CarouselContent,
@@ -56,7 +55,10 @@ function HowBuild() {
   const { head, cards } = data.section5;
 
   return (
-    <section className="relative flex flex-col gap-[40px] md:gap-[70px] mt-[90px] lg:mt-[120px]">
+    <section
+      id={"howto"}
+      className="relative flex flex-col gap-[40px] md:gap-[70px] mt-[90px] lg:mt-[120px]"
+    >
       <SectionTitle headContent={head} />
 
       <img

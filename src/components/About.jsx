@@ -6,7 +6,10 @@ function About() {
   const { head, content } = data.section2;
 
   return (
-    <section className="flex flex-col gap-[36px] md:gap-[70px] mt-[140px] md:mt-[20px]">
+    <section
+      id={"about"}
+      className="flex flex-col gap-[36px] md:gap-[70px] mt-[140px] md:mt-[20px]"
+    >
       <SectionTitle headContent={head} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 ">
