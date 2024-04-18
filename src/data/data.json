@@ -1,0 +1,102 @@
+{
+  "menu": {
+    "": "qweqw"
+  },
+  "section1": {
+    "content": {
+      "title": ["Dive", "Into The Depths Of", "Virtual Reality"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris eros in vitae .",
+      "textButton": "BUILD YOUR WORLD"
+    },
+
+    "slides": [
+      {
+        "image": "/location.svg",
+        "title": "Pay Us a Visit",
+        "text": "Union St, Seattle, WA 98101, United States"
+      },
+      {
+        "image": "/phone.svg",
+        "title": "Contact Us",
+        "text": "123-456-7890"
+      },
+      {
+        "image": "/mail.svg",
+        "title": "Send Us an Email",
+        "text": "contact@example.com"
+      }
+    ]
+  },
+  "section2": {
+    "head": {
+      "title": ["INTRODUCTION", "TO HYDRA VR"],
+      "text": "Vitae sapien pellentesque habitant morbi tristique senectus et netus  et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
+    },
+    "content": {
+      "title": ["ABOUT", "HYDRA VR"],
+      "text": "Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncusmattis rhoncus urna neque viverra justo. Vivamus at augue eget arcudictum. Ultrices gravida dictum fusce ut placerat orci. Aenean ettortor at risus viverra adipisci ng at in. Mattis aliquam faucibuspurus in massa. Est placerat in egestas erat imperdiet sed.Consequat sem per viverra nam libero justo laoreet sit amet. Aliquametiam erat velit scelerisque in dictum non consectetur a. Laoreetsit amet cursus sit amet. Vel eros donec ac odio tempor orcidapibus. Sem nulla pharetra diam sit amet nisl suscipit adipiscingbibendum. Leo a diam sollicitudin tempor.",
+      "textButton": "LET’S GET IN TOUCH"
+    }
+  },
+  "section3": {
+    "head": {
+      "title": ["WHY BUILD", "WITH HYDRA?"],
+      "text": "Vitae sapien pellentesque habitant morbi tristique senectus et netus  et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
+    },
+    "cards": [
+      {
+        "image": "card1.png",
+        "title": "SIMULATION",
+        "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+        "textButton": "TRY IT NOW"
+      },
+      {
+        "image": "card2.png",
+        "title": "EDUCATION",
+        "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+        "textButton": "TRY IT NOW"
+      },
+      {
+        "image": "card3.png",
+        "title": "SELF-CARE",
+        "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+        "textButton": "TRY IT NOW"
+      },
+      {
+        "image": "card4.png",
+        "title": "OUTDOOR",
+        "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+        "textButton": "TRY IT NOW"
+      }
+    ]
+  },
+  "section4": {
+    "title": ["TECHNOLOGIES & HARDWARE", "USED BY HYDRA VR."],
+    "mainImage": "tech-image.png",
+    "brands": ["tech1.png", "tech2.png", "tech3.png", "tech4.png"]
+  },
+  "section5": {
+    "head": {
+      "title": ["HOW WE BUILD", "WITH HYDRA VR?"],
+      "text": "Vitae sapien pellentesque habitant morbi tristique senectus et netus  et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
+    },
+    "cards": [
+      {
+        "id": 1,
+        "title": "3D Conception & Design"
+      },
+      {
+        "id": 2,
+        "title": "Interaction Design"
+      },
+      {
+        "id": 3,
+        "title": "VR World User Testing"
+      },
+      {
+        "id": 4,
+        "title": "Hydra VR Deploy"
+      }
+    ]
+  }
+}
