@@ -11,14 +11,15 @@ function Contact() {
     >
       {/* sa */}
       <div className="flex flex-col items-center mt-[20px] p-12 rounded-[60px] bg-radial-gradient">
-        <h4 className="text-center text-[24px] md:text-[36px] text-white font-bold h-12 mb-[24px]">
-          {title[0]}
-        </h4>
-        <p className="text-[24px] md:text-[36px] text-white font-thin pt-[12px] border-t">
-          {" "}
-          {title[1]}
-        </p>
-
+        <div className="flex flex-col gap-4">
+          <h4 className="text-center text-[24px] md:text-[36px] text-white font-bold ">
+            {title[0]}
+          </h4>
+          <div className="h-[2px] bg-gradient-to-r from-[#343045] via-[#C0B7E8] to-[#343045]"></div>
+          <h4 className="text-[24px] md:text-[36px] text-white font-thin">
+            {title[1]}
+          </h4>
+        </div>
         <form
           method="post"
           action={`mailto:${email}?subject=subject&message=message`}
