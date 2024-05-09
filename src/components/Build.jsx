@@ -1,6 +1,6 @@
 import SectionTitle from "@/components/SectionTitle";
 import data from "@/data/data";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 
 function Build() {
   const { head, cards } = data.section3;
@@ -27,7 +27,7 @@ function Build() {
                 {element.title}
               </h4>
               <p className="text-[12px] mt-[20px]">{element.text}</p>
-              <Button className="mt-[35px]">{element.textButton}</Button>
+              {/*  <Button className="mt-[35px]">{element.textButton}</Button> */}
             </div>
           </div>
         ))}

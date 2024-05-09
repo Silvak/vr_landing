@@ -1,6 +1,6 @@
 import SectionTitle from "@/components/SectionTitle";
 import data from "@/data/data";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 
 function About() {
   const { head, content } = data.section2;
@@ -14,7 +14,7 @@ function About() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="bg-gray-400 overflow-hidden w-full h-min md:max-w-[90%]  xl:max-w-[524px]  rounded-tr-[20%] rounded-bl-[20%] rounded-tl-[40%] rounded-br-[40%] shadow-lg">
-          <img src="/sectionAbout.png" className="w-full object-cover" />
+          <img src="/img/2.png" className="h-full object-cover" />
         </div>
 
         <div className="flex flex-col items-center md:items-start  mt-[32px] md:mt-0 text-white">
@@ -25,7 +25,7 @@ function About() {
 
           <p className="mb-[28px]">{content.text}</p>
 
-          <Button className="w-min">{content.textButton}</Button>
+          {/* <Button className="w-min">{content.textButton}</Button> */}
         </div>
       </div>
     </section>

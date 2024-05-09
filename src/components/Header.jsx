@@ -15,15 +15,15 @@ function Header() {
         <ul className="justify-center hidden md:flex">
           <li className="flex gap-4 text-white font-semibold text-[12px]">
             <a href="#about">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#technologies">TECHNOLOGIES</a>
-            <a href="#howto">HOW TO</a>
+            <a href="#services">OUR WORK</a>
+            <a href="#technologies">WHY US</a>
+            <a href="#howto">CLIENTS</a>
           </li>
         </ul>
 
         <div className="flex justify-end gap-4">
           <a href="#contact">
-            <Button className="text-[12px]">CONTACT US</Button>
+            <Button className="text-[12px]">CONTACT</Button>
           </a>
         </div>
       </div>

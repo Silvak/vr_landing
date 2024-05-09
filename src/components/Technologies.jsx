@@ -9,18 +9,27 @@ function Technologies() {
       className="flex flex-col gap-[36px] md:gap-[70px] mt-[90px] lg:mt-[120px]"
     >
       <div
-        className={`relative flex flex-col justify-center items-center h-[170px] md:h-[300px] w-full  rounded-full overflow-hidden`}
+        className={`relative flex flex-col justify-center items-center h-[170px] md:h-[300px] w-full  rounded-full overflow-hidden `}
       >
-        <h3 className="z-10 text-[24px] md:text-[36px] font-semibold text-white">
+        <h3 className="text-[24px] md:text-[36px] font-semibold text-white z-20">
           {title[0]}
         </h3>
-        <p className="z-10 text-[24px] md:text-[36px] font-thin text-white">
+        <p className="text-[24px]  text-center font-thin text-white z-20">
           {title[1]}
         </p>
 
-        <img src={mainImage} alt="" className="absolute top-0 object-cover" />
+        <div className="absolute top-0 bg-black/60 backdrop-blur-sm w-full h-full z-10">
+          {" "}
+        </div>
+
+        <img
+          src={mainImage}
+          alt=""
+          className="absolute top-0 object-cover w-full h-full "
+        />
       </div>
 
+      {/* 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-white mt-[40px]">
         {brands.map((element, index) => (
           <div key={index} className=" flex items-center justify-center ">
@@ -28,6 +37,7 @@ function Technologies() {
           </div>
         ))}
       </div>
+      */}
     </section>
   );
 }

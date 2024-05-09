@@ -16,7 +16,7 @@ function Contact() {
             {title[0]}
           </h4>
           <div className="h-[2px] bg-gradient-to-r from-[#343045] via-[#C0B7E8] to-[#343045]"></div>
-          <h4 className="text-[24px] md:text-[36px] text-white font-thin">
+          <h4 className="text-[24px] text-center text-white font-thin">
             {title[1]}
           </h4>
         </div>

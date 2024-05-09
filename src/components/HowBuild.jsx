@@ -61,6 +61,8 @@ function HowBuild() {
     >
       <SectionTitle headContent={head} />
 
+      {/*
+      
       <img
         src="/Centro 3.svg"
         alt=""
@@ -70,6 +72,7 @@ function HowBuild() {
       <div className="flex justify-center z-10">
         <CarouselSize cards={cards} />
       </div>
+      */}
     </section>
   );
 }

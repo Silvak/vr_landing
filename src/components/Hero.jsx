@@ -14,7 +14,7 @@ function Hero() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2  h-auto md:h-[840px]">
         {/* Text Hero */}
-        <div className="relative col-span-1 flex flex-col  md:justify-center items-center md:items-start order-2 md:order-1 w-full  md:max-w-[480px] z-10">
+        <div className="relative col-span-1 flex flex-col  md:justify-center items-center md:items-start order-2 md:order-1 w-full  md:max-w-[580px] z-10">
           <h1 className="text-white text-[32px] md:text-[46px]  font-semibold md:font-bold text-center md:text-left mb-[36px]">
             <span className={styledText}>{content.title[0]}</span>{" "}
             {content.title[1]}{" "}
@@ -46,7 +46,7 @@ function Hero() {
               <div className="absolute bg-black/20 backdrop-blur-sm w-full h-full  rounded-t-[22%] rounded-br-[22%] rounded-bl-[52%] p-5">
                 <div className="w-full h-full  rounded-t-[21%] rounded-br-[21%] rounded-bl-[53%] overflow-hidden">
                   <img
-                    src="/img-hero.png"
+                    src="/img/1.png"
                     alt=""
                     className=" object-cover w-full h-full"
                   />
