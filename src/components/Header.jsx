@@ -1,8 +1,6 @@
 //import CustomButton from "@/components/CustomButton";
 import { Button } from "@/components/ui/button";
-
-const styledText =
-  "bg-gradient-to-r from-[#8176AF]  to-[#C0B7E8]  inline-block text-transparent bg-clip-text";
+import logo from "@/assets/brand/logoWhite.svg";
 
 function Header() {
   return (
@@ -10,11 +8,11 @@ function Header() {
       <div className="grid grid-cols-2 md:grid-cols-3 max-w-[1300px] px-4 md:px-0 w-full items-center">
         <div className="text-xl font-bold text-white">
           <a href="/">
-            <span className={styledText}>HYDRA</span>
+            <img src={logo} alt="" className="h-[48px]" />
           </a>
         </div>
 
-        <ul className="flex justify-center hidden md:flex">
+        <ul className="justify-center hidden md:flex">
           <li className="flex gap-4 text-white font-semibold text-[12px]">
             <a href="#about">ABOUT</a>
             <a href="#services">SERVICES</a>

@@ -37,20 +37,21 @@ function Hero() {
 
         {/* Object Image */}
         <div className="col-span-1 w-full order-1 md:order-2 pt-[140px] pb-[40px] md:py-0">
-          <div className="relative flex justify-center md:justify-end items-center h-[45vh] md:h-full  p-8 md:p-0">
-            <img
-              src="/img-hero.png"
-              alt="hero image, girl wearing vr"
-              className="absolute p-[16px] z-50 object-contain"
-            />
-            <img
-              src="/bg-hero.png"
-              alt="background hero image"
-              className="absolute object-contain z-10"
-            />
-
+          <div className="relative flex justify-center md:justify-end items-center h-[45vh] md:h-full">
             <div className="absolute right-[-35%] sm:right-[-2%] md:right-[-10%]  lg:right-[10%] pb-24 lg:w-[617px]">
               <Line />
+            </div>
+
+            <div className="w-[530px] h-[460px] max-h-[78vw] md:max-h-[42vw] lg:max-h-[468px] relative">
+              <div className="absolute bg-black/20 backdrop-blur-sm w-full h-full  rounded-t-[22%] rounded-br-[22%] rounded-bl-[52%] p-5">
+                <div className="w-full h-full  rounded-t-[21%] rounded-br-[21%] rounded-bl-[53%] overflow-hidden">
+                  <img
+                    src="/img-hero.png"
+                    alt=""
+                    className=" object-cover w-full h-full"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
