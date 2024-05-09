@@ -16,8 +16,14 @@ function Header() {
           <li className="flex gap-4 text-white font-semibold text-[12px]">
             <a href="#about">ABOUT</a>
             <a href="#services">OUR WORK</a>
-            <a href="#technologies">WHY US</a>
-            <a href="#howto">CLIENTS</a>
+            <a href="#project">PROJECT</a>
+            <a href="#howto">WHY US</a>
+            <a
+              href="https://realifoodarsolutions.blog.jumpylife.com"
+              target="_blank"
+            >
+              BLOG
+            </a>
           </li>
         </ul>
 

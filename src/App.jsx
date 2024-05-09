@@ -6,6 +6,7 @@ import HowBuild from "@/components/HowBuild";
 import Technologies from "@/components/Technologies";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Project from "@/components/Project";
 
 const Layout = ({ children }) => {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Hero />
         <About />
         <Build />
+        <Project />
         <Technologies />
         <HowBuild />
         <Contact />

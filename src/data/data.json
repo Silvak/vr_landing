@@ -112,5 +112,11 @@
   },
   "section7": {
     "text": "2024 © Realifood AR Solutions - ALL RIGHTS RESERVED"
+  },
+  "project": {
+    "head": {
+      "title": ["PROJECTS", "OF REALIFOOD"],
+      "text": "We are actively engaged in developing cutting-edge technologies aimed at enhancing food safety and sustainability. Our goal is to create impactful solutions that address the challenges of food waste reduction and promote a more efficient and responsible food supply chain."
+    }
   }
 }
