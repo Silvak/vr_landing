@@ -19,7 +19,7 @@ function Header() {
             <a href="#project">PROJECT</a>
             <a href="#howto">WHY US</a>
             <a
-              href="https://realifoodarsolutions.blog.jumpylife.com"
+              href="https://realifood.blog.jumpylife.com"
               target="_blank"
             >
               BLOG
